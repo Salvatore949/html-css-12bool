@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-xs"]{
+    min-height: 30px;
+    background-color: rgb(10, 43, 192);
+    border: 1px solid rgb(255, 255, 255);
+}
+.six{
+    margin-bottom: 15px;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.second div{
+    min-height: 20px;
+    border: 1px solid rgb(10, 43, 192);
+    background-color:chartreuse;
+}
+
+h2{
+    padding:15px 0;
+}
